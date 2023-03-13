@@ -1,0 +1,17 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "lib": ["es2015", "dom"],
+    "sourceMap": true,
+    "strict": true,
+    "baseUrl": "src",
+    "outDir": "dist",
+    "rootDir": "src",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
